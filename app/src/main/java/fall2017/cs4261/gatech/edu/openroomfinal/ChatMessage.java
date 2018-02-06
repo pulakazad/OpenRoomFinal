@@ -30,8 +30,9 @@ public class ChatMessage {
 
     public String getMessageText() {
         return messageText;
-    }
+    } // gets the message text
 
+    //send the message text
     public void setMessageText(String messageText) {
         this.messageText = messageText;
     }
