@@ -4,6 +4,7 @@ import java.util.Date;
 
 /**
  * Created by pulakazad on 2/6/18.
+ * Modified by reidbarton
  */
 
 public class ChatMessage {
@@ -12,6 +13,8 @@ public class ChatMessage {
     private String messageUser;
     private long messageTime;
 
+
+    //Checking to see if it updates with this comment
 
     public ChatMessage(String messageText, String messageUser) {
         this.messageText = messageText;
